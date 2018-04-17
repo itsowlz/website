@@ -5,17 +5,39 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- link to style sheet  -->
     <title>My Portfolio</title> <!-- Your Name/Website Name Here -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    ul.breadcrumb {
+        padding: 10px 16px;
+        list-style: none;
+        background-color: ;
+    }
+    ul.breadcrumb li {
+        display: inline;
+        font-size: 18px;
+    }
+    ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: black;
+        content: "/\00a0";
+    }
+    ul.breadcrumb li a {
+        color: black;
+        text-decoration: none;
+    }
+    ul.breadcrumb li a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+    </style>
+    </head>
+    <body>
 
-</head>
-<body>
-  <ul>
-    <li>Home</li>
-    <li>Work</li>
-    <li>Artiststatement</li>
-    <li>About</li>
-    <li>Contact</li>
-  </ul>
-  <footer>
-  </footer>
+    <ul class="breadcrumb">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Pictures</a></li>
+      <li><a href="#">Summer 15</a></li>
+      <li>Italy</li>
+    </ul>
 </body>
 </html>
